@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+.box {
+    background-image: url("https://www.fillmurray.com/150/1500");
+    background: red;
+  }
+a {
+    color: red;
+}
+body {
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 150%;
+}
