@@ -1,0 +1,54 @@
+:root{
+  --title-color: blue;
+  --menu-color: green;
+  --espacio: 20px;
+  }
+  
+  
+  body {
+    margin:0;
+  }
+  
+  header{
+    background-color:#eaeaea;
+    padding: var(--espacio);
+  }
+  
+  main{
+    padding: var(--espacio);
+  }
+  
+  p{
+    width:50%;
+    font-size: 16px
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:0
+  }
+  
+  .title{
+    color: var(--title-color);
+    margin:0;
+  }
+  
+  .subtitle{
+    color: var(--title-color);
+    margin:0;
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color: var(--menu-color);
+    text-decoration:none
+  }
+  
+  p a {
+    color:green
+  }
+  
+  

@@ -1,0 +1,36 @@
+.uno {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-color: black;
+    border: solid;
+    display: block;
+    }
+.dos {
+    height: 500px;
+    width: 900px;
+    background-color: coral;
+    border-color: black;
+    border: solid;
+    display: block;
+}
+.tres {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-color: black;
+    border: solid 5px;
+    display: block;
+    padding: 10px; 
+    box-sizing: border-box;
+margin: auto;}
+    
+
+.chiuno {height: 100px;
+    width: 100px;
+
+}
+.chidos {height: 200px;
+    width: 200px;
+
+}
