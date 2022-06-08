@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    width: 840px;
+    max-width: 840px;
+    border: black solid 2px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}  
+div {
+    border: solid black 2px;
+}
+.foto1 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    order: 1;
+}
+.cita {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border: solid, grey, 2px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: white;
+
+}
+.presupuesto {
+   
+        text-align: center;
+        width: 80px;
+        height: 40px;
+        border: solid, grey, 2px;
+        border-radius: 5px;
+}
+.titulo1 {
+
+    vertical-align: top;}
+.titulo2 {
+
+    vertical-align: middle;
+}
+.imagen2 {
+
+    width: 50px;
+    border-radius: 5px
+}
+.estrella {
+    width: 50px;
+    border-radius: 5px
+}

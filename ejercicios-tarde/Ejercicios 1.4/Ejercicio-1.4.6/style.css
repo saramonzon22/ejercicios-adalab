@@ -1,0 +1,35 @@
+.cuerpito {
+    border: 8px solid black;
+    position: absolute;
+
+}
+
+.div1 {
+    margin-top: 106px;
+
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.autor {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.mitoko {
+    font-size: 32px;
+    margin-bottom: 27px;
+}
+.texto {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+a { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: -16px;
+}
+@media (min-width: 600px) {
+    .cuerpito {height: 100%;    }
+
+}

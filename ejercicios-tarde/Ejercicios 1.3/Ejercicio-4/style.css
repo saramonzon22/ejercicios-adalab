@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cuerpo {
+    background-color:cornflowerblue;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: stretch;
+
+}
+img {
+    width: 100%;
+        
+}
+div {
+    border: solid black 2px; 
+    width: 250px;
+}
+.noticia4 {
+    order: -1;
+    
+}
+.noticia1 .noticia2 {
+    flex: 1;
+
+}
+.noticia3 .noticia5 {
+    flex: 2;
+}

@@ -1,0 +1,14 @@
+.contenedor1 {
+    display: flex;
+    width: 390px;
+    border-bottom: 2px grey solid;
+    
+}
+a {
+    transform: translate(180px);
+    text-align: center;
+    width: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    

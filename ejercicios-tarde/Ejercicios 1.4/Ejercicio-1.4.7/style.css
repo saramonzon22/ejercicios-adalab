@@ -1,0 +1,21 @@
+a:hover{
+    color:blueviolet
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a.tooltip span {
+display: none;
+    padding: 2px 3px;
+    margin-left: 10px;
+    width: 200px;
+}
+a.tooltip:hover span{
+    display: inline;
+    position: absolute;
+    border: 2px solid black;
+    background-color: chocolate;
+    line-height: 120%;
+    color: white;
+} 
