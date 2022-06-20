@@ -1,0 +1,9 @@
+$fontcolor: "white";
+
+
+.header {
+    background-color: red;
+    .title {
+        color: $fontcolor;
+    }
+}

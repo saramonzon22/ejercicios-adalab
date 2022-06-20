@@ -1,0 +1,15 @@
+.cuerpo {
+  &-section1 {
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+
+  }
+  &-section2 {
+    &-boton {
+      background-color: red;
+      border-radius: 5px;
+      height: 45px;
+    }
+  }
+}

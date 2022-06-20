@@ -1,0 +1,27 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+
+.author {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media all and (min-width:768px) {
+        grid-template-columns: 1fr;
+        transform: translateY(-100px);
+    }
+}
+
+.photo {
+    border-radius: 50%;
+}
+.page {
+    @media all and (min-width: 768px) {
+    display: flex;
+}
+}
